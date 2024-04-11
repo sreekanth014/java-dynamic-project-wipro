@@ -64,4 +64,17 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+      <snapshotRepository>
+        <id>crm-project</id>
+        <name>devops markonda</name>
+		<url>http://localhost:8081/repository/snapshot/</url>
+      </snapshotRepository>
+	  <repository>
+        <id>crm-project</id>
+        <name>devops markonda</name>
+		<url>http://localhost:8081/repository/snapshot/</url>
+      </repository>
+	
+   </distributionManagement>
 </project>
